@@ -1,0 +1,313 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+h1, h2, h3{
+    color: hsl(210, 10%, 33%);
+    line-height: 1.5;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    padding: 190px 50px;
+    margin-bottom: 130px;
+}
+
+#head-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.btns {
+    margin-top: 50px;
+}
+
+button:nth-of-type(1) {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:inset 0px -15px 0px -11px rgba(0,0,0,0.42), 0px 8px 15px rgba(30, 148, 130, 0.3);
+    margin-bottom: 30px;
+}
+
+button:nth-child(1):hover {
+    background-color: hsl(171, 66%, 55%);
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    -webkit-box-shadow: inset 0px -15px 0px -11px rgba(0,0,0,0.42); 
+    box-shadow: inset 0px -15px 0px -11px rgba(0,0,0,0.42);
+}
+   
+button:hover {
+    background-color: hsl(233, 100%, 75%);
+    color: #fff;
+    transform: translateY(-7px);
+}
+   
+button:active {
+    transform: translateY(-1px);
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 130px;
+}
+
+main #track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#computer {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.tracking {
+    margin-bottom: 50px;
+}
+
+#accessSection {
+    text-align: center;
+}
+
+#device {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.accessInfo {
+    margin-bottom: 100px;
+}
+
+.icon {
+    margin-bottom: 60px;
+}
+
+#installSection {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    background-color: #e9ecef;
+    min-height: 200px;
+}
+
+footer #con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 45px 0;
+}
+
+footer img {
+    margin-bottom: 40px;
+    width: 70px;
+    height: 70px;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul li {
+    margin-bottom: 30px;
+}
+
+.q  {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    transition: .3s ease-in;
+}
+
+.q:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+#social {
+    margin-top: 40px;
+}
+
+.mediaLink {
+    font-size: 3rem;
+    margin-right: 30px;
+    color: hsl(201, 11%, 66%);
+    transition: .3s ease-in;
+}
+
+.mediaLink:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.show {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    header {
+        background-image: url('images/bg-header-desktop.png');
+    }
+
+    main #track {
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -150px;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    ul {
+        margin-left: 180px;
+    }
+
+    footer #con {
+        flex-direction: row;
+    }
+
+    footer img {
+        margin: 0 80px;
+    }
+
+    .q {
+        margin-right: 10px;
+    }
+
+    #social {
+        margin-top: 0;
+        margin-right: 100px;
+    }
+
+    .show {
+        display: block;
+    }
+
+    #info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    ul {
+        text-align: left;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+    #row1 {
+        display: block;
+    }
+}
